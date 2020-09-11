@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>SL's Rock/Paper/Scissors</title>
+        <meta name="description" content="Home Page of Samara's profile">
+        <meta name="author" content="Samara Love">
+        <link rel="stylesheet" href="styles.css">
+               
+    </head>
+
+    <body>
+        <header>
+
+            <!-- Helper code:
+            https://stackoverflow.com/questions/39230557/js-rock-paper-scissor-buttons-instead-of-prompt
+            https://stackoverflow.com/questions/63335854/rock-paper-scissors-how-to-store-the-user-choice-and-compare-it-to-the-cpu-cho  -->
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+        <div class="game">
+            <p> Select Rock, Paper, or Scissors to start playing</p>
+            <button id ="rock"> Rock </button>
+            <button id ="paper"> Paper </button>
+            <button id ="scissors"> Scissors </button>
+            <!-- <p id="computerChoice"></p> -->
+
+        </div>
+        <br><br>
+
+        <div id="computerChoice"></div>
+        
+        <div id="userChoice"></div>
+        <div id="winner"></div>
+        <!-- <div id="usertotal"></div>
+        <div id="CPUtotal"></div> -->
+        <p>Your total: </p>
+        <p id="usertotal">0</p>
+        <p>CPU total: </p>
+        <p id="CPUtotal">0</p>
+
+        <script src="exercise3.js"></script>
+    </body>
+</html>
